@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Counter</title>
+    <link rel="stylesheet" href="./counter.css">
+    <script defer src="./counter.js"></script>
+</head>
+<body>
+    
+            <div class="form-container" id="form">
+                <div class="top-counter-container">
+                    <div class="display-container">
+                        <p>Your One-Stop Calories Counter!</p>
+                    </div>
+
+                    <div class="counter-container">
+                        <label for="walking">Walking Counter (in minutes)</label>
+                        <input type="text" placeholder="Enter Your Value" id="walking" name="walking">
+                    </div>
+    
+                    <div class="counter-container">
+                        <label for="cycling">Cycling Counter (in minutes)</label>
+                        <input type="text" placeholder="Enter Your Value" id="cycling" name="cycling">
+                    </div>
+
+                    <div class="counter-container">
+                        <label for="running">Running Counter (in minutes)</label>
+                        <input type="text" placeholder="Enter Your Value" id="running" name="running">
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button id="button">Calculate Total Calories Burned</button>
+                </div>
+
+                <div class="result-container" id="result">
+                    <p></p>
+                </div>
+                
+            </div>
+</body>
+</html>
